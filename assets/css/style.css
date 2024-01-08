@@ -1,4 +1,79 @@
 
+:root{
+  -primaryfont:
+  -secondaryfont:
+  -primarybackground:red;
+  -secondarybackground:
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+header nav{
+  width:100%;
+  display:flex;
+  background-color:red;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+nav h1{
+  flex-grow: 4;
+  align-self: flex-start;
+  padding: 10px;
+}
+
+nav h2{
+  align-self: flex-end;
+  padding: 10px;
+
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex: 4;
+  padding: 50px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.work {
+  flex: 4;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+
+ .project{
+   /* padding: 10px; */
+  flex:40%;
+  margin: 20px 10px 20px;
+}
+
+.project img{
+  width: 100%;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex: 4;
+  padding: 50px;
+  justify-content: flex-end;
+  
+
+}
 
 @media screen and (max-width: 768px) {
  
