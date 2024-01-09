@@ -1,9 +1,10 @@
 
 :root{
-  -primaryfont:
-  -secondaryfont:
-  -primarybackground:red;
-  -secondarybackground:
+  /* -primaryfont:
+  -secondaryfont: */
+  --primarybackground:#ffffff;
+  --secondary:#303948;
+  --
 }
 
 header{
@@ -11,29 +12,56 @@ header{
   flex-direction: row;
   flex-wrap: wrap;
   width:100%;
+
+
 }
 
 header nav{
   width:100%;
   display:flex;
-  background-color:red;
+  background-color: var(--primarybackground);
+  color:#fff
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
-  
+  padding:50px;
 }
-nav h1{
+
+h1{
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform:uppercase;
+  letter-spacing: .1em;
   flex-grow: 4;
   align-self: flex-start;
   padding: 10px;
+  font-size: 3em;
+  
+
 }
 
-nav h2{
+h2{
+  font-family: 'Space Grotesk', sans-serif;
   align-self: flex-end;
-  padding: 10px;
+  padding: 0px 20px 10px 20px;
+  font-size: 2em;
+  font-weight: 400;
 
 }
 
+.About {
+  display:flex;
+   font-family: 'Space Grotesk', sans-serif;
+   font-weight:300;
+   font-size:2em;
+   line-height: 1.25em;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.About img{
+  width:400px;
+  padding-right: 20px;
+}
 main {
   display: flex;
   flex-wrap: wrap;
@@ -45,23 +73,44 @@ main {
 }
 
 .work {
-  flex: 4;
+
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
+  padding-top:50px;
 }
+.project:first-child {
+  flex: 1000px;
+}
+
+
+
 
 
  .project{
    /* padding: 10px; */
-  flex:40%;
+  flex:500px;
   margin: 20px 10px 20px;
+ 
 }
 
 .project img{
   width: 100%;
+}
+
+.project p{
+  padding-left: 20px;
+
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project a:hover{
+  text-decoration: underline;
 }
 
 footer{
@@ -71,7 +120,6 @@ footer{
   flex: 4;
   padding: 50px;
   justify-content: flex-end;
-  
 
 }
 
