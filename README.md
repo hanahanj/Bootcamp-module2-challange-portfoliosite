@@ -14,6 +14,3 @@ Content should adjust when window is resized or viewed on a different device
 Link to live site:
 https://hanahanj.github.io/portfolio-site/
 
-
-Screenshot of project:
-![Project Thumbnail](../assets/images/screencap.png)  
