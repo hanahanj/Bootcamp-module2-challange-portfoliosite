@@ -7,6 +7,7 @@
   --
 }
 
+/* Nav Bar  */
 header{
   display: flex;
   flex-direction: row;
@@ -20,7 +21,6 @@ header nav{
   width:100%;
   display:flex;
   background-color: var(--primarybackground);
-  color:#fff
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
@@ -48,13 +48,14 @@ h2{
 
 }
 
+/* About Section  */
+
 .about {
   display:flex;
    font-family: 'Space Grotesk', sans-serif;
    font-weight:300;
    font-size:2em;
    line-height: 1.25em;
-   /* padding-top: 50px; */
    padding-bottom: 50px;
 }
 
@@ -62,6 +63,9 @@ h2{
   width:400px;
   padding-right: 20px;
 }
+
+/* Work Section  */
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +78,7 @@ main {
 
 .work {
 
-  background-color: #fff;
+  background-color: var(--primarybackground);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -84,10 +88,6 @@ main {
 .project:first-child {
   flex: 1000px;
 }
-
-
-
-
 
  .project{
    /* padding: 10px; */
@@ -113,6 +113,9 @@ main {
   text-decoration: underline;
 }
 
+/* Footer Section */
+
+
 footer{
   display: flex;
   flex-wrap: wrap;
@@ -122,6 +125,8 @@ footer{
   justify-content: flex-end;
 
 }
+
+/* media queries to stack content into column and adjust the alignment of the nav from right align to left */
 
 @media screen and (max-width: 768px) {
 
