@@ -13,8 +13,6 @@ header{
   flex-direction: row;
   flex-wrap: wrap;
   width:100%;
-
-
 }
 
 header nav{
@@ -35,8 +33,6 @@ h1{
   align-self: flex-start;
   padding: 10px;
   font-size: 3em;
-  
-
 }
 
 h2{
